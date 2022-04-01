@@ -9,6 +9,7 @@ function App() {
         <Link to="/home">首页</Link>
         <Link to="/citylist">城市x</Link>
         <Routes>
+          <Route path="/" element = {<Home />}></Route>
           <Route path="/home/*" element = {<Home />}></Route>
           <Route path="/citylist" element = {<CityList />}></Route>
         </Routes>
